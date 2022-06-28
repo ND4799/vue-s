@@ -7,7 +7,17 @@
     <title>hello vue</title>
 </head>
 <body>
-    hello vue fdsfs 
+    <div id="app">
+        {{ message }}
+    </div>
+   <script>
+        let app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello Vue!!!!!!!!!!!2'
+        }
+      })
+   </script>
 
 </body>
 </html>
